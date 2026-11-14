@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Vendor &amp; Resepsi — Aksanira</title><desc id="desc">Ilustrasi venue resepsi pernikahan, meja, bunga, dan dekorasi acara.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F9F5EF"/><stop offset="1" stop-color="#E9DDD0"/></linearGradient><pattern id="grain" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.2" fill="#8B6F5C" opacity=".12"/></pattern></defs>
+<rect width="1200" height="675" rx="34" fill="url(#bg)"/><rect width="1200" height="675" rx="34" fill="url(#grain)"/>
+<circle cx="570" cy="330" r="230" fill="#F6F0E8" opacity=".8"/><circle cx="570" cy="330" r="230" fill="none" stroke="#D8C4AE" stroke-width="3"/>
+<path d="M0 560 Q220 480 390 585 T800 565 T1200 540 V675 H0Z" fill="#87917D" opacity=".16"/>
+<path d="M420 430 H700 L665 260 H455 Z" fill="#D8C4AE"/><path d="M450 260 Q560 120 670 260" fill="#87917D"/><path d="M455 260 Q560 185 665 260" fill="#F6F0E8"/><rect x="485" y="350" width="150" height="90" rx="12" fill="#8B6F5C"/><g fill="#F6F0E8"><circle cx="460" cy="240" r="25"/><circle cx="665" cy="240" r="25"/><circle cx="560" cy="205" r="28"/></g><path d="M560 350 V440" stroke="#D8C4AE" stroke-width="16"/>
+<g fill="#6B4F46"><text x="90" y="105" font-family="Georgia,serif" font-size="24" letter-spacing="6">AKSANIRA</text><text x="90" y="555" font-family="Georgia,serif" font-size="42">Vendor &amp; Resepsi</text></g>
+<path d="M90 585 H310" stroke="#B58B6B" stroke-width="4"/><text x="90" y="625" fill="#82766E" font-family="Arial,sans-serif" font-size="19" letter-spacing="2">PANDUAN PERNIKAHAN UNTUK PASANGAN</text>
+</svg>

@@ -1,0 +1,292 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "aksanira.my.id"
+        }
+      ],
+      "destination": "https://www.aksanira.my.id/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/berapa-jumlah-kotak-seserahan-yang-ideal",
+      "destination": "/perbedaan-seserahan-dan-mahar-yang-perlu-dipahami",
+      "permanent": true
+    },
+    {
+      "source": "/cara-membandingkan-paket-catering-pernikahan",
+      "destination": "/cara-membandingkan-penawaran-vendor-pernikahan",
+      "permanent": true
+    },
+    {
+      "source": "/cara-membicarakan-ekspektasi-pernikahan-dengan-pasangan",
+      "destination": "/cara-membagi-anggaran-pernikahan-dengan-pasangan",
+      "permanent": true
+    },
+    {
+      "source": "/cara-membuat-folder-digital-untuk-dokumen-pernikahan",
+      "destination": "/dokumen-administrasi-pernikahan-yang-perlu-dipersiapkan",
+      "permanent": true
+    },
+    {
+      "source": "/cara-membuat-moodboard-penampilan-pengantin",
+      "destination": "/cara-menentukan-tema-pernikahan-yang-mewakili-pasangan",
+      "permanent": true
+    },
+    {
+      "source": "/cara-mengelompokkan-barang-hantaran-agar-rapi",
+      "destination": "/perbedaan-seserahan-dan-mahar-yang-perlu-dipahami",
+      "permanent": true
+    },
+    {
+      "source": "/cara-menjaga-komunikasi-dengan-pasangan-menjelang-akad",
+      "destination": "/cara-membagi-anggaran-pernikahan-dengan-pasangan",
+      "permanent": true
+    },
+    {
+      "source": "/cara-menyesuaikan-busana-dengan-konsep-acara",
+      "destination": "/panduan-menentukan-busana-akad-dan-resepsi",
+      "permanent": true
+    },
+    {
+      "source": "/cara-menyesuaikan-hantaran-dengan-kesepakatan-dua-keluarga",
+      "destination": "/cara-membicarakan-tradisi-dengan-calon-mertua",
+      "permanent": true
+    },
+    {
+      "source": "/cara-menyiapkan-seserahan-dari-jauh-hari",
+      "destination": "/timeline-persiapan-pernikahan-12-bulan-sebelum-hari-h",
+      "permanent": true
+    },
+    {
+      "source": "/cara-menyimpan-bukti-pembayaran-dan-kontrak-vendor",
+      "destination": "/cara-membandingkan-penawaran-vendor-pernikahan",
+      "permanent": true
+    },
+    {
+      "source": "/cara-menyusun-daftar-vendor-pernikahan",
+      "destination": "/cara-membandingkan-penawaran-vendor-pernikahan",
+      "permanent": true
+    },
+    {
+      "source": "/checklist-diskusi-keluarga-menjelang-pernikahan",
+      "destination": "/checklist-pernikahan-6-bulan-sebelum-hari-h",
+      "permanent": true
+    },
+    {
+      "source": "/checklist-distribusi-undangan-pernikahan",
+      "destination": "/menentukan-jumlah-undangan-sesuai-kapasitas-venue",
+      "permanent": true
+    },
+    {
+      "source": "/checklist-fitting-busana-pengantin",
+      "destination": "/checklist-pernikahan-6-bulan-sebelum-hari-h",
+      "permanent": true
+    },
+    {
+      "source": "/checklist-saat-survei-lokasi-resepsi",
+      "destination": "/checklist-pernikahan-6-bulan-sebelum-hari-h",
+      "permanent": true
+    },
+    {
+      "source": "/daftar-barang-seserahan-perempuan-yang-bisa-dipertimbangkan",
+      "destination": "/perbedaan-seserahan-dan-mahar-yang-perlu-dipahami",
+      "permanent": true
+    },
+    {
+      "source": "/daftar-hantaran-pernikahan-pria-yang-praktis",
+      "destination": "/perbedaan-seserahan-dan-mahar-yang-perlu-dipahami",
+      "permanent": true
+    },
+    {
+      "source": "/dekorasi-akad-sederhana-yang-tetap-berkesan",
+      "destination": "/cara-menentukan-tema-pernikahan-yang-mewakili-pasangan",
+      "permanent": true
+    },
+    {
+      "source": "/elemen-dekorasi-yang-perlu-diprioritaskan",
+      "destination": "/cara-menentukan-tema-pernikahan-yang-mewakili-pasangan",
+      "permanent": true
+    },
+    {
+      "source": "/evaluasi-anggaran-pernikahan-setelah-setiap-pembelian",
+      "destination": "/cara-membuat-anggaran-pernikahan-dari-nol",
+      "permanent": true
+    },
+    {
+      "source": "/evaluasi-persiapan-agar-hari-pernikahan-lebih-tenang",
+      "destination": "/checklist-hari-pernikahan-untuk-calon-pengantin",
+      "permanent": true
+    },
+    {
+      "source": "/hal-yang-perlu-dibicarakan-sebelum-menentukan-adat-pernikahan",
+      "destination": "/memilih-unsur-tradisi-yang-bermakna-bagi-pasangan",
+      "permanent": true
+    },
+    {
+      "source": "/informasi-yang-perlu-dicantumkan-pada-undangan",
+      "destination": "/menentukan-jumlah-undangan-sesuai-kapasitas-venue",
+      "permanent": true
+    },
+    {
+      "source": "/kesalahan-umum-saat-menyiapkan-hantaran",
+      "destination": "/cara-membuat-anggaran-pernikahan-dari-nol",
+      "permanent": true
+    },
+    {
+      "source": "/membagi-peran-keluarga-saat-hari-pernikahan",
+      "destination": "/checklist-hari-pernikahan-untuk-calon-pengantin",
+      "permanent": true
+    },
+    {
+      "source": "/membagi-tugas-persiapan-pernikahan-dengan-pasangan",
+      "destination": "/cara-membagi-anggaran-pernikahan-dengan-pasangan",
+      "permanent": true
+    },
+    {
+      "source": "/membuat-moodboard-dekorasi-pernikahan",
+      "destination": "/cara-menentukan-tema-pernikahan-yang-mewakili-pasangan",
+      "permanent": true
+    },
+    {
+      "source": "/membuat-rencana-hari-h-yang-tidak-terlalu-padat",
+      "destination": "/memilih-unsur-tradisi-yang-bermakna-bagi-pasangan",
+      "permanent": true
+    },
+    {
+      "source": "/mengantisipasi-perubahan-jumlah-tamu",
+      "destination": "/cara-menyusun-daftar-tamu-pernikahan-bersama-keluarga",
+      "permanent": true
+    },
+    {
+      "source": "/mengatur-komunikasi-dengan-vendor-agar-tidak-terlewat",
+      "destination": "/cara-membandingkan-penawaran-vendor-pernikahan",
+      "permanent": true
+    },
+    {
+      "source": "/menghindari-dekorasi-berlebihan-dalam-pernikahan",
+      "destination": "/cara-menentukan-tema-pernikahan-yang-mewakili-pasangan",
+      "permanent": true
+    },
+    {
+      "source": "/menghindari-salah-paham-dalam-persiapan-adat",
+      "destination": "/memilih-unsur-tradisi-yang-bermakna-bagi-pasangan",
+      "permanent": true
+    },
+    {
+      "source": "/menjaga-tradisi-tanpa-membebani-anggaran",
+      "destination": "/cara-membuat-anggaran-pernikahan-dari-nol",
+      "permanent": true
+    },
+    {
+      "source": "/menyepakati-batas-anggaran-bersama-calon-pasangan",
+      "destination": "/cara-membuat-anggaran-pernikahan-dari-nol",
+      "permanent": true
+    },
+    {
+      "source": "/menyesuaikan-dekorasi-dengan-ukuran-venue",
+      "destination": "/cara-memilih-venue-pernikahan-sesuai-kebutuhan",
+      "permanent": true
+    },
+    {
+      "source": "/menyusun-anggaran-makeup-dan-hairdo-pengantin",
+      "destination": "/cara-membuat-anggaran-pernikahan-dari-nol",
+      "permanent": true
+    },
+    {
+      "source": "/menyusun-grup-komunikasi-keluarga-dan-vendor",
+      "destination": "/cara-membandingkan-penawaran-vendor-pernikahan",
+      "permanent": true
+    },
+    {
+      "source": "/perbedaan-kebiasaan-hantaran-antar-keluarga",
+      "destination": "/cara-membicarakan-tradisi-dengan-calon-mertua",
+      "permanent": true
+    },
+    {
+      "source": "/persiapan-busana-keluarga-inti-untuk-hari-pernikahan",
+      "destination": "/panduan-menentukan-busana-akad-dan-resepsi",
+      "permanent": true
+    },
+    {
+      "source": "/pertanyaan-penting-saat-konsultasi-dengan-vendor",
+      "destination": "/cara-membandingkan-penawaran-vendor-pernikahan",
+      "permanent": true
+    },
+    {
+      "source": "/pertanyaan-untuk-keluarga-tentang-tradisi-pernikahan",
+      "destination": "/memilih-unsur-tradisi-yang-bermakna-bagi-pasangan",
+      "permanent": true
+    },
+    {
+      "source": "/rencana-cadangan-jika-vendor-mengalami-kendala",
+      "destination": "/cara-membandingkan-penawaran-vendor-pernikahan",
+      "permanent": true
+    },
+    {
+      "source": "/tips-memilih-isi-seserahan-tanpa-boros",
+      "destination": "/cara-membuat-anggaran-pernikahan-dari-nol",
+      "permanent": true
+    },
+    {
+      "source": "/undangan-digital-atau-cetak-pertimbangan-sebelum-memilih",
+      "destination": "/menentukan-jumlah-undangan-sesuai-kapasitas-venue",
+      "permanent": true
+    },
+    {
+      "source": "/artikel-adat-seserahan",
+      "destination": "/cara-membicarakan-tradisi-dengan-calon-mertua",
+      "permanent": true
+    },
+    {
+      "source": "/artikel-anggaran-seserahan",
+      "destination": "/cara-membuat-anggaran-pernikahan-dari-nol",
+      "permanent": true
+    },
+    {
+      "source": "/artikel-checklist-seserahan",
+      "destination": "/perbedaan-seserahan-dan-mahar-yang-perlu-dipahami",
+      "permanent": true
+    },
+    {
+      "source": "/kalkulator-budget-pernikahan",
+      "destination": "/tool-budget-check",
+      "permanent": true
+    },
+    {
+      "source": "/guest-list-rsvp-mini",
+      "destination": "/tool-guest-capacity",
+      "permanent": true
+    },
+    {
+      "source": "/vendor-comparison-mini",
+      "destination": "/tool-vendor-evaluator",
+      "permanent": true
+    },
+    {
+      "source": "/wedding-checklist-timeline",
+      "destination": "/tool-readiness-checklist",
+      "permanent": true
+    },
+    {
+      "source": "/guest-list-estimator",
+      "destination": "/tool-guest-capacity",
+      "permanent": true
+    },
+    {
+      "source": "/wedding-countdown",
+      "destination": "/tool-readiness-checklist",
+      "permanent": true
+    },
+    {
+      "source": "/planner-seserahan",
+      "destination": "/tools-gratis",
+      "permanent": true
+    }
+  ]
+}

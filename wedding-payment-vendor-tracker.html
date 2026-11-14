@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="id"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Wedding Payment &amp; Vendor Tracker Excel | AKSANIRA</title>
+<meta content="Catat kontrak vendor, DP, termin pembayaran, jatuh tempo, sisa tagihan, dan follow-up vendor dalam workbook Excel AKSANIRA." name="description"/>
+<link href="https://www.aksanira.my.id/wedding-payment-vendor-tracker" rel="canonical"/>
+<meta content="product" property="og:type"/><meta content="AKSANIRA" property="og:site_name"/><meta content="Wedding Payment &amp; Vendor Tracker | AKSANIRA" property="og:title"/><meta content="Kelola kontrak dan pembayaran vendor pernikahan dengan lebih terstruktur." property="og:description"/>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+:root{--mocha:#6B4F46;--beige:#B99C86;--ivory:#F9F7F4;--ink:#44352f;--muted:#82766e;--line:#e7ddd5;--surface:#fffdfa;--soft:#f3ece6;--sage:#e8ede5}
+*{box-sizing:border-box}body{margin:0;background:var(--ivory);color:var(--ink);font:14px Poppins,Arial,sans-serif;line-height:1.8}
+header{border-bottom:1px solid var(--line);background:rgba(249,247,244,.96)}nav{max-width:1050px;margin:auto;padding:14px 22px;display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap}.brand{font:600 27px 'Playfair Display',Georgia,serif;letter-spacing:3px;color:var(--mocha);text-decoration:none}.links{display:flex;gap:17px;flex-wrap:wrap}.links a{font-size:12px;color:var(--muted);text-decoration:none}
+main{max-width:1050px;margin:auto;padding:48px 22px}.eyebrow{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--beige);font-weight:700}h1,h2,h3{font-family:'Playfair Display',Georgia,serif;color:var(--mocha);line-height:1.25}h1{font-size:clamp(34px,5vw,48px);max-width:820px;margin:9px 0 14px}h2{font-size:27px;margin:8px 0 12px}h3{font-size:19px;margin:8px 0}.lead{max-width:790px;color:var(--muted)}.actions{display:flex;gap:10px;flex-wrap:wrap;margin:22px 0}.btn{display:inline-block;padding:11px 17px;border-radius:9px;text-decoration:none;font-weight:600;font-size:12px;border:1px solid var(--mocha);color:var(--mocha)}.btn.primary{background:var(--mocha);color:#fff}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin:20px 0}.panel{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:19px}.panel p,.panel li{font-size:12px;color:var(--muted)}.panel ul{padding-left:18px}.note{background:var(--soft);padding:17px;border-radius:12px;color:var(--muted);font-size:12px}.price{font-size:25px;font-weight:700;color:var(--mocha)}footer{border-top:1px solid var(--line);padding:24px;text-align:center;color:var(--muted);font-size:11px}
+@media(max-width:680px){main{padding:32px 18px}.grid{grid-template-columns:1fr}.brand{font-size:24px}}
+</style><meta content="https://www.aksanira.my.id/wedding-payment-vendor-tracker" property="og:url"/><meta content="https://www.aksanira.my.id/og-aksanira.png" property="og:image"/><meta content="https://www.aksanira.my.id/og-aksanira.png" name="twitter:image"/><meta content="noindex,follow" name="robots"><style id="aksanira-v27-quality">
+:focus-visible{outline:3px solid #8DAA9B!important;outline-offset:3px}
+a{transition:color .18s ease,background-color .18s ease}
+a:hover{color:#6B4F46}
+img{max-width:100%;height:auto}
+.preview-panel,.purchase-clarity,.related-system-cta{margin:34px 0;padding:26px;background:#fffdfa;border:1px solid #e7ddd5;border-radius:16px}
+.preview-panel h2,.purchase-clarity h2,.related-system-cta h2{margin-top:6px}
+.preview-panel>p,.purchase-clarity p,.related-system-cta p{color:#82766e}
+.preview-table-wrap{overflow-x:auto;margin:18px 0;border:1px solid #e7ddd5;border-radius:10px}
+.preview-table{width:100%;border-collapse:collapse;min-width:620px;background:#fff}
+.preview-table th,.preview-table td{padding:12px 14px;text-align:left;border-bottom:1px solid #eee7e1;font-size:12px}
+.preview-table th{background:#f3ece6;color:#6B4F46;font-weight:700}
+.preview-table tr:last-child td{border-bottom:0}
+.preview-note,.fineprint{font-size:12px;color:#82766e}
+.status-ok{color:#426a55;font-weight:700}.status-warn{color:#9a642a;font-weight:700}
+.proof-grid,.clarity-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:20px}
+.clarity-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.proof-card,.clarity-grid article{background:#fffdfa;border:1px solid #e7ddd5;border-radius:14px;padding:20px}
+.proof-card h3,.clarity-grid h3{margin:8px 0}
+.proof-card p,.clarity-grid p{font-size:13px;color:#82766e}
+.proof-card a{font-size:12px;font-weight:700;color:#6B4F46;text-decoration:none}
+.proof-step,.eyebrow{letter-spacing:1.5px}
+.related-system-cta{background:#f3ece6}
+@media(max-width:760px){.proof-grid,.clarity-grid{grid-template-columns:1fr}.preview-panel,.purchase-clarity,.related-system-cta{padding:19px;margin:24px 0}.preview-table th,.preview-table td{padding:10px;font-size:11px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+</style></meta></head><body>
+<header><nav><a class="brand" href="index">AKSANIRA</a><div class="links"><a href="index">Beranda</a><a href="produk">Produk</a><a href="tools-gratis">Tools Gratis</a><a href="artikel">Artikel</a><a href="kontak">Kontak</a></div></nav></header>
+<main>
+<div class="eyebrow">WORKBOOK DIGITAL · PRODUK BARU</div>
+<h1>Wedding Payment &amp; Vendor Tracker</h1>
+<p class="lead">Kelola kontrak, termin pembayaran, tanggal jatuh tempo, dan komunikasi vendor dalam satu workbook. Bantu kamu dan pasangan mengetahui berapa yang sudah dibayar, berapa yang masih menjadi kewajiban, dan apa yang perlu ditindaklanjuti.</p>
+<div class="actions"><a class="btn" href="produk">← Kembali ke semua produk</a></div>
+<div class="grid">
+<section class="panel"><h2>Yang bisa kamu kelola</h2><ul><li>Daftar vendor, kategori, kontak, dan status kerja sama.</li><li>Nilai kontrak, DP, dan sisa nilai kontrak.</li><li>Jadwal DP, termin, dan pelunasan.</li><li>Tanggal jatuh tempo dan status pembayaran otomatis.</li><li>Riwayat komunikasi dan tanggal follow-up.</li></ul></section>
+<section class="panel"><h2>Isi workbook</h2><ul><li>Dashboard ringkasan pembayaran.</li><li>Vendor &amp; Kontrak.</li><li>Jadwal Pembayaran.</li><li>Kontak &amp; Follow-up.</li><li>Panduan penggunaan PDF.</li></ul><p>Dirancang untuk pencatatan hingga 50 vendor, 100 termin pembayaran, dan 50 catatan follow-up.</p></section>
+</div>
+<section class="panel"><h2>Untuk siapa produk ini?</h2><p>Untuk pasangan yang ingin memantau komitmen biaya vendor secara lebih terstruktur, menghindari termin yang terlewat, dan menyimpan catatan komunikasi penting dalam satu tempat.</p><h2>Format yang diterima</h2><p>1 workbook Excel (.xlsx), 1 panduan PDF, dan README dalam satu paket ZIP.</p></section>
+<section class="panel" style="margin-top:16px"><h2>Harga perkenalan yang direncanakan</h2><div class="price">Rp39.000</div><p>Harga ini merupakan usulan dan perlu ditetapkan di Mayar sebelum halaman pembelian diaktifkan.</p><div class="note">Produk belum memiliki tautan checkout Mayar yang terkonfirmasi. Setelah produk dibuat dan aktif di Mayar, tombol pembelian dapat ditambahkan di halaman ini.</div></section>
+<section class="note" style="margin-top:16px"><b>Informasi penting:</b> Workbook tidak mengirim notifikasi jatuh tempo otomatis dan tidak memproses pembayaran. Status pembayaran dihitung dari data yang dimasukkan. Gunakan Excel atau aplikasi spreadsheet yang kompatibel.</section>
+</main><footer>AKSANIRA — Persiapan lebih terarah, menuju hari yang bermakna.</footer>
+<script id="aksanira-conversion-events">
+/* Instrumentasi lokal: meneruskan event ke dataLayer bila GTM dipasang.
+   Tidak mengirim data ke pihak ketiga dan tidak mengaktifkan analytics sendiri. */
+(function(){
+  function emit(name, element){
+    var payload={event:name, page_path:location.pathname, link_text:(element && element.textContent || '').trim().slice(0,100)};
+    window.dispatchEvent(new CustomEvent('aksanira:conversion',{detail:payload}));
+    if(Array.isArray(window.dataLayer)) window.dataLayer.push(payload);
+  }
+  document.addEventListener('click',function(e){
+    var a=e.target.closest('a');
+    if(!a) return;
+    var href=a.getAttribute('href')||'';
+    if(/aksanira\.myr\.id\/catalog\//i.test(href)) emit('click_checkout',a);
+    else if(/kontak(?:\.html)?(?:$|[?#])/i.test(href)) emit('click_contact',a);
+    else if(/tools-gratis|tool-/i.test(href)) emit('click_free_tool',a);
+  });
+  document.addEventListener('submit',function(e){
+    if(e.target && e.target.id==='contactForm') emit('submit_contact',e.target);
+  });
+})();
+</script>
+
+</body></html>

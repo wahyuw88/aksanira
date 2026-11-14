@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<html lang="id">
+<head>
+<meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Financial Control System untuk Anggaran Pernikahan | AKSANIRA</title>
+<meta content="Atur budget pernikahan bersama dengan Financial Control System AKSANIRA. Catat estimasi, pengeluaran aktual, pembayaran, dan vendor dalam workbook Excel yang bisa diedit." name="description"/>
+<link href="https://www.aksanira.my.id/wedding-budget-planner" rel="canonical"/>
+<meta content="index,follow" name="robots"/>
+<meta content="product" property="og:type"/><meta content="AKSANIRA" property="og:site_name"/>
+<meta content="Financial Control System untuk Anggaran Pernikahan | AKSANIRA" property="og:title"/>
+<meta content="Atur budget pernikahan bersama dengan Financial Control System AKSANIRA. Catat estimasi, pengeluaran aktual, pembayaran, dan vendor dalam workbook Excel yang bisa diedit." property="og:description"/>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+:root{--mocha:#6B4F46;--beige:#B99C86;--ivory:#F9F7F4;--ink:#44352f;--muted:#82766e;--line:#e7ddd5;--surface:#fffdfa;--soft:#f3ece6;--sage:#e8ede5}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--ivory);color:var(--ink);font:14px Poppins,Arial,sans-serif;line-height:1.75}
+.wrap{max-width:1080px;margin:auto;padding:0 22px}.sitebar{border-bottom:1px solid var(--line);background:var(--ivory)}
+.nav{max-width:1080px;margin:auto;padding:14px 22px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.brand{font:600 27px 'Playfair Display',Georgia,serif;letter-spacing:3px;color:var(--mocha);text-decoration:none}
+.navlinks{display:flex;gap:18px;flex-wrap:wrap}.navlinks a{font-size:12px;color:var(--muted);text-decoration:none}
+h1,h2,h3{font-family:'Playfair Display',Georgia,serif;color:var(--mocha);line-height:1.25}h1{font-size:clamp(36px,5vw,56px);margin:12px 0}h2{font-size:30px;margin:8px 0 14px}h3{font-size:20px;margin:8px 0}
+.eyebrow{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--beige);font-weight:700}
+.lead{color:var(--muted);max-width:680px}.hero{padding:52px 0 36px;display:grid;grid-template-columns:1fr 1.05fr;gap:36px;align-items:center}
+.hero img{width:100%;height:auto;border-radius:16px;border:1px solid var(--line);box-shadow:0 18px 45px #6b4f4614}
+.pill{display:inline-block;background:var(--sage);color:#435044;border-radius:30px;padding:6px 12px;font-size:11px;font-weight:600}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}.btn{display:inline-block;padding:12px 18px;border-radius:9px;text-decoration:none;font-weight:600;font-size:12px;border:1px solid var(--mocha);color:var(--mocha)}.btn.primary{background:var(--mocha);color:white}
+.section{padding:34px 0}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.panel{background:var(--surface);border:1px solid var(--line);border-radius:15px;padding:22px}
+ul{padding-left:20px;color:var(--muted)}li{margin:7px 0}.muted{color:var(--muted)}.pricebox{background:var(--soft);border-radius:16px;padding:24px;display:flex;justify-content:space-between;gap:20px;align-items:center;flex-wrap:wrap}
+.price{font:700 32px 'Playfair Display',Georgia,serif;color:var(--mocha)}.fine{font-size:11px;color:var(--muted)}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.step{background:white;border:1px solid var(--line);border-radius:12px;padding:17px}
+.faq details{background:white;border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin:9px 0}.faq summary{cursor:pointer;font-weight:600;color:var(--mocha)}.faq p{color:var(--muted);font-size:12px}
+footer{border-top:1px solid var(--line);padding:22px 0 30px;color:var(--muted);font-size:11px}
+@media(max-width:760px){.wrap{padding:0 16px}.nav{padding:12px 16px}.hero{padding:36px 0 24px;grid-template-columns:1fr}.grid,.steps{grid-template-columns:1fr}.panel{padding:18px}}
+</style>
+<style id="aksanira-image-mobile">img,picture,video{max-width:100%;height:auto} @media(max-width:680px){.pagewrap{padding-left:16px!important;padding-right:16px!important}.sitebar-inner{padding:12px 16px!important}.sitenav{gap:10px 14px!important}}</style>
+<style id="aksanira-mayar-cta">
+.mayar-cta{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:#6B4F46;color:#fff!important;border:1px solid #6B4F46;border-radius:9px;padding:12px 18px;text-decoration:none!important;font:600 13px Poppins,Arial,sans-serif;transition:background .2s ease}
+.mayar-cta:hover{background:#513a33}
+.mayar-secondary{display:inline-flex;align-items:center;justify-content:center;border:1px solid #B99C86;border-radius:9px;padding:11px 16px;color:#6B4F46;text-decoration:none;font:600 12px Poppins,Arial,sans-serif}
+.mayar-price{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:12px 0}
+.mayar-old{color:#82766e;text-decoration:line-through;font-size:13px}
+.mayar-new{font-size:25px;font-weight:700;color:#6B4F46}
+.mayar-save{background:#f3e5e1;color:#8f3434;border-radius:20px;padding:4px 10px;font-size:11px;font-weight:700}
+.mayar-note{font-size:11px;color:#82766e;margin-top:8px}
+@media(max-width:600px){.mayar-cta,.mayar-secondary{width:100%;text-align:center}}
+</style>
+<meta content="https://www.aksanira.my.id/wedding-budget-planner" property="og:url"/><meta content="https://www.aksanira.my.id/og-aksanira.png" property="og:image"/><meta content="https://www.aksanira.my.id/og-aksanira.png" name="twitter:image"/><style id="aksanira-v27-quality">
+:focus-visible{outline:3px solid #8DAA9B!important;outline-offset:3px}
+a{transition:color .18s ease,background-color .18s ease}
+a:hover{color:#6B4F46}
+img{max-width:100%;height:auto}
+.preview-panel,.purchase-clarity,.related-system-cta{margin:34px 0;padding:26px;background:#fffdfa;border:1px solid #e7ddd5;border-radius:16px}
+.preview-panel h2,.purchase-clarity h2,.related-system-cta h2{margin-top:6px}
+.preview-panel>p,.purchase-clarity p,.related-system-cta p{color:#82766e}
+.preview-table-wrap{overflow-x:auto;margin:18px 0;border:1px solid #e7ddd5;border-radius:10px}
+.preview-table{width:100%;border-collapse:collapse;min-width:620px;background:#fff}
+.preview-table th,.preview-table td{padding:12px 14px;text-align:left;border-bottom:1px solid #eee7e1;font-size:12px}
+.preview-table th{background:#f3ece6;color:#6B4F46;font-weight:700}
+.preview-table tr:last-child td{border-bottom:0}
+.preview-note,.fineprint{font-size:12px;color:#82766e}
+.status-ok{color:#426a55;font-weight:700}.status-warn{color:#9a642a;font-weight:700}
+.proof-grid,.clarity-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:20px}
+.clarity-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.proof-card,.clarity-grid article{background:#fffdfa;border:1px solid #e7ddd5;border-radius:14px;padding:20px}
+.proof-card h3,.clarity-grid h3{margin:8px 0}
+.proof-card p,.clarity-grid p{font-size:13px;color:#82766e}
+.proof-card a{font-size:12px;font-weight:700;color:#6B4F46;text-decoration:none}
+.proof-step,.eyebrow{letter-spacing:1.5px}
+.related-system-cta{background:#f3ece6}
+@media(max-width:760px){.proof-grid,.clarity-grid{grid-template-columns:1fr}.preview-panel,.purchase-clarity,.related-system-cta{padding:19px;margin:24px 0}.preview-table th,.preview-table td{padding:10px;font-size:11px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+</style></head>
+<body>
+<header class="sitebar"><nav class="nav"><a class="brand" href="/">AKSANIRA</a><div class="navlinks"><a href="/">Beranda</a><a href="/produk">Produk Digital</a><a href="/tools-gratis">Tools Gratis</a><a href="/artikel">Artikel</a><a href="/tentang">Tentang</a><a href="/kontak">Kontak</a></div></nav></header>
+<main class="wrap">
+<section class="hero">
+<div>
+<div class="eyebrow">AKSANIRA · ELEGANT EDITION</div>
+<span class="pill">Template Excel editable + panduan PDF</span>
+<h1>Financial Control System: kendalikan anggaran, skenario, dan keputusan biaya pernikahan.</h1>
+<p class="lead">Anda dan pasangan dapat mengendalikan estimasi dan realisasi biaya, memantau kewajiban pembayaran, serta mendokumentasikan keputusan anggaran. Workbook ini juga menyediakan ruang simulasi skenario agar dampak perubahan biaya dapat dipertimbangkan sebelum keputusan diambil.</p>
+<div class="actions"><a class="btn primary" href="#paket">Lihat isi paket</a><a class="btn" href="/tools-gratis">Coba tools gratis</a></div>
+<p class="fine">Dirancang sebagai alat bantu pencatatan. Anda dan pasangan tetap memegang kendali atas kategori dan nominal anggaran.</p>
+</div>
+<img alt="Preview Financial Control System AKSANIRA Elegant Edition" decoding="async" height="675" loading="eager" src="/wedding-budget-planner-preview.png" width="1200"/>
+</section>
+<section class="section">
+<div class="eyebrow">KENAPA MEMAKAINYA?</div><h2>Anggaran lebih jelas, keputusan lebih terarah.</h2>
+<div class="grid">
+<article class="panel"><h3>Lihat gambaran besar</h3><p class="muted">Dashboard merangkum total anggaran, realisasi, sisa dana, dan persentase penggunaan agar kondisi biaya lebih mudah dipantau.</p></article>
+<article class="panel"><h3>Catat sampai detail</h3><p class="muted">Pisahkan kebutuhan berdasarkan kategori dan bandingkan estimasi dengan nominal aktual.</p></article>
+<article class="panel"><h3>Jangan lewatkan pembayaran</h3><p class="muted">Catat DP, pelunasan, nominal, dan tanggal jatuh tempo untuk membantu mengingat kewajiban pembayaran.</p></article>
+<article class="panel"><h3>Bandingkan vendor</h3><p class="muted">Simpan kontak, harga, rating pribadi, dan status vendor dalam satu lembar kerja.</p></article>
+</div>
+</section>
+<section class="section" id="paket">
+<div class="eyebrow">APA YANG ANDA DAPATKAN?</div><section class="preview-panel"><div class="eyebrow">CONTOH STRUKTUR — ILUSTRASI (BUKAN SCREENSHOT WORKBOOK)</div><h2>Seperti apa kontrol anggaran bekerja?</h2><p>Contoh angka berikut hanya untuk memperlihatkan cara membaca sistem, bukan data transaksi atau hasil pelanggan.</p><div class="preview-table-wrap"><table class="preview-table"><thead><tr><th>Pos</th><th>Anggaran</th><th>Aktual</th><th>Selisih</th><th>Status</th></tr></thead><tbody><tr><td>Venue</td><td>Rp35.000.000</td><td>Rp33.000.000</td><td>Rp2.000.000</td><td><span class="status-ok">Dalam batas</span></td></tr><tr><td>Katering</td><td>Rp28.000.000</td><td>Rp29.500.000</td><td>-Rp1.500.000</td><td><span class="status-warn">Perlu tinjau</span></td></tr><tr><td>Dokumentasi</td><td>Rp8.000.000</td><td>Rp0</td><td>Rp8.000.000</td><td>Belum dibayar</td></tr></tbody></table></div><p class="preview-note">Workbook aktual berisi sheet pengelolaan anggaran, pembayaran, kontrak vendor, ringkasan, dan simulasi skenario. Tampilan di atas merupakan ilustrasi konten, bukan screenshot Excel.</p></section><h2>Satu sistem untuk memantau angka dan keputusan.</h2>
+<div class="grid">
+<article class="panel"><h3>01 · Dashboard</h3><p class="muted">Ringkasan anggaran dan indikator realisasi.</p></article>
+<article class="panel"><h3>02 · Anggaran</h3><p class="muted">Tabel estimasi, realisasi, selisih, kategori, dan catatan.</p></article>
+<article class="panel"><h3>03 · Pembayaran</h3><p class="muted">Pencatatan vendor/penerima, nominal, jatuh tempo, dan status pembayaran.</p></article>
+<article class="panel"><h3>04 · Vendor</h3><p class="muted">Database untuk membandingkan harga dan mengevaluasi pilihan vendor.</p></article>
+<article class="panel"><h3>05 · Kontrol Keputusan</h3><p class="muted">Catat keputusan biaya, alasan, pihak yang menyetujui, dampak, dan tindak lanjut.</p></article>
+<article class="panel"><h3>06 · Simulasi Skenario</h3><p class="muted">Bandingkan alternatif perubahan anggaran untuk membantu menilai konsekuensi pilihan.</p></article>
+<article class="panel"><h3>07 · Panduan PDF</h3><p class="muted">Petunjuk penggunaan workbook dan cara menjaga catatan tetap konsisten.</p></article>
+<article class="panel"><h3>06 · Fleksibel</h3><p class="muted">Kategori dan nominal dapat disesuaikan dengan kebutuhan pernikahan Anda dan pasangan.</p></article>
+</div>
+</section>
+<section class="section">
+<div class="eyebrow">CARA MENGGUNAKAN</div><h2>Mulai dalam tiga langkah.</h2>
+<div class="steps">
+<div class="step"><b>01 · Isi rencana</b><p class="muted">Masukkan estimasi biaya pada lembar Anggaran sesuai kebutuhan dan batas dana.</p></div>
+<div class="step"><b>02 · Catat transaksi</b><p class="muted">Perbarui realisasi serta catatan pembayaran ketika ada transaksi atau perubahan.</p></div>
+<div class="step"><b>03 · Evaluasi keputusan</b><p class="muted">Gunakan lembar Kontrol Keputusan dan Simulasi Skenario untuk mencatat alasan dan mempertimbangkan konsekuensi perubahan.</p></div>
+</div>
+</section>
+<section class="section">
+<div class="pricebox">
+<div><div class="eyebrow">HARGA PRODUK</div><h2>Financial Control System</h2><div class="mayar-price">Harga final mengikuti listing resmi Mayar.</div></div>
+<div><ul><li>1 file Excel editable</li><li>1 panduan penggunaan PDF</li><li>Lisensi penggunaan personal</li></ul><a class="mayar-cta" href="https://aksanira.myr.id/catalog/wedding-budget-planner-79298" rel="noopener noreferrer" target="_blank">Periksa harga dan listing di Mayar ↗</a></div>
+</div>
+<p class="mayar-note">Pembelian dan pengiriman file digital diproses melalui halaman checkout Mayar.</p>
+</section>
+<section class="section faq">
+<div class="eyebrow">PERTANYAAN UMUM</div><h2>Hal yang perlu diketahui.</h2>
+<details><summary>Apakah file bisa diedit?</summary><p>Ya. Workbook disiapkan agar pengguna dapat mengisi dan menyesuaikan data. Hindari mengubah atau menghapus rumus jika belum memahami fungsinya.</p></details>
+<details><summary>Aplikasi apa yang disarankan?</summary><p>Untuk hasil paling konsisten, gunakan Microsoft Excel versi desktop yang relatif baru. Tampilan dan beberapa fitur dapat berbeda pada aplikasi spreadsheet lain.</p></details>
+<details><summary>Apakah data saya dikirim ke AKSANIRA?</summary><p>Workbook ini dirancang untuk digunakan sebagai file lokal. Data yang Anda dan pasangan masukkan tidak otomatis dikirim ke AKSANIRA melalui file tersebut.</p></details>
+<details><summary>Apakah planner menjamin anggaran tidak membengkak?</summary><p>Tidak. Planner membantu pencatatan dan pemantauan. Hasilnya bergantung pada kelengkapan dan ketepatan data yang Anda dan pasangan masukkan serta keputusan Anda dan pasangan.</p></details>
+</section>
+<section class="section"><div class="panel"><div class="eyebrow">MULAI DARI LANGKAH KECIL</div><h2>Butuh bantuan menyusun anggaran?</h2><p class="muted">Gunakan kalkulator budget gratis AKSANIRA terlebih dahulu, lalu lanjutkan pencatatan yang lebih rinci dengan planner.</p><a class="btn primary" href="/tools-gratis">Buka Tools Gratis</a></div></section>
+<footer>© AKSANIRA · <a href="/kebijakan-privasi">Kebijakan Privasi</a> · <a href="/kontak">Hubungi Kami</a> · <a href="/produk">Produk Digital</a></footer>
+</main>
+
+<script id="aksanira-conversion-events">
+/* Instrumentasi lokal: meneruskan event ke dataLayer bila GTM dipasang.
+   Tidak mengirim data ke pihak ketiga dan tidak mengaktifkan analytics sendiri. */
+(function(){
+  function emit(name, element){
+    var payload={event:name, page_path:location.pathname, link_text:(element && element.textContent || '').trim().slice(0,100)};
+    window.dispatchEvent(new CustomEvent('aksanira:conversion',{detail:payload}));
+    if(Array.isArray(window.dataLayer)) window.dataLayer.push(payload);
+  }
+  document.addEventListener('click',function(e){
+    var a=e.target.closest('a');
+    if(!a) return;
+    var href=a.getAttribute('href')||'';
+    if(/aksanira\.myr\.id\/catalog\//i.test(href)) emit('click_checkout',a);
+    else if(/kontak(?:\.html)?(?:$|[?#])/i.test(href)) emit('click_contact',a);
+    else if(/tools-gratis|tool-/i.test(href)) emit('click_free_tool',a);
+  });
+  document.addEventListener('submit',function(e){
+    if(e.target && e.target.id==='contactForm') emit('submit_contact',e.target);
+  });
+})();
+</script>
+
+</body></html>
