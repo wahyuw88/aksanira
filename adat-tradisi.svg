@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Adat &amp; Tradisi — Aksanira</title><desc id="desc">Ilustrasi tradisi pernikahan dengan ornamen budaya dan rangkaian bunga.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F9F5EF"/><stop offset="1" stop-color="#E9DDD0"/></linearGradient><pattern id="grain" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.2" fill="#8B6F5C" opacity=".12"/></pattern></defs>
+<rect width="1200" height="675" rx="34" fill="url(#bg)"/><rect width="1200" height="675" rx="34" fill="url(#grain)"/>
+<circle cx="570" cy="330" r="230" fill="#F6F0E8" opacity=".8"/><circle cx="570" cy="330" r="230" fill="none" stroke="#D8C4AE" stroke-width="3"/>
+<path d="M0 560 Q220 480 390 585 T800 565 T1200 540 V675 H0Z" fill="#87917D" opacity=".16"/>
+<path d="M450 430 Q560 130 690 430" fill="none" stroke="#8B6F5C" stroke-width="20"/><path d="M480 420 Q560 245 660 420" fill="none" stroke="#D8C4AE" stroke-width="15"/><circle cx="560" cy="270" r="48" fill="#C49A78"/><path d="M560 220 L590 280 L560 340 L530 280 Z" fill="#87917D"/><g fill="#F6F0E8" stroke="#B58B6B" stroke-width="6"><circle cx="430" cy="360" r="25"/><circle cx="700" cy="360" r="25"/><circle cx="560" cy="170" r="25"/></g>
+<g fill="#6B4F46"><text x="90" y="105" font-family="Georgia,serif" font-size="24" letter-spacing="6">AKSANIRA</text><text x="90" y="555" font-family="Georgia,serif" font-size="42">Adat &amp; Tradisi</text></g>
+<path d="M90 585 H310" stroke="#B58B6B" stroke-width="4"/><text x="90" y="625" fill="#82766E" font-family="Arial,sans-serif" font-size="19" letter-spacing="2">PANDUAN PERNIKAHAN UNTUK PASANGAN</text>
+</svg>

@@ -1,0 +1,14 @@
+{
+  "name": "aksanira-static-site-qa",
+  "private": true,
+  "version": "4.1.0",
+  "description": "Optional browser QA tooling for AKSANIRA static website staging",
+  "scripts": {
+    "qa:browser": "node browser_smoke.mjs",
+    "qa:static": "python3 qa_static.py",
+    "qa:static": "python3 qa_static.py"
+  },
+  "devDependencies": {
+    "playwright": "^1.56.1"
+  }
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Undangan &amp; Tamu — Aksanira</title><desc id="desc">Ilustrasi undangan pernikahan, amplop, dan daftar tamu.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F9F5EF"/><stop offset="1" stop-color="#E9DDD0"/></linearGradient><pattern id="grain" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.2" fill="#8B6F5C" opacity=".12"/></pattern></defs>
+<rect width="1200" height="675" rx="34" fill="url(#bg)"/><rect width="1200" height="675" rx="34" fill="url(#grain)"/>
+<circle cx="570" cy="330" r="230" fill="#F6F0E8" opacity=".8"/><circle cx="570" cy="330" r="230" fill="none" stroke="#D8C4AE" stroke-width="3"/>
+<path d="M0 560 Q220 480 390 585 T800 565 T1200 540 V675 H0Z" fill="#87917D" opacity=".16"/>
+<rect x="420" y="210" width="260" height="220" rx="12" fill="#D8C4AE"/><rect x="455" y="180" width="260" height="220" rx="12" fill="#FFFDF9" stroke="#8B6F5C" stroke-width="7"/><path d="M490 245 H675 M520 290 H645 M545 330 H620" stroke="#B58B6B" stroke-width="10" stroke-linecap="round"/><path d="M455 180 L585 285 L715 180" fill="none" stroke="#87917D" stroke-width="8"/>
+<g fill="#6B4F46"><text x="90" y="105" font-family="Georgia,serif" font-size="24" letter-spacing="6">AKSANIRA</text><text x="90" y="555" font-family="Georgia,serif" font-size="42">Undangan &amp; Tamu</text></g>
+<path d="M90 585 H310" stroke="#B58B6B" stroke-width="4"/><text x="90" y="625" fill="#82766E" font-family="Arial,sans-serif" font-size="19" letter-spacing="2">PANDUAN PERNIKAHAN UNTUK PASANGAN</text>
+</svg>

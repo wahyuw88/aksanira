@@ -1,0 +1,15 @@
+ID,Area,URL_or_Item,Test,Expected_Result,Actual_Result,Status,Date,Tester,Evidence_or_Notes
+STATIC-01,Static QA,qa_static.py,Run static validation,No errors,"PASS — python3 qa_static.py; 67 HTML pages, 57 sitemap URLs, 0 errors, 0 warnings.",PASS,2026-11-13,Automated local QA,"Executed against v4.0 package; local static checks only, not live hosting, checkout, forms, or browser rendering."
+DOMAIN-01,Domain,https://aksanira.my.id/,HTTP redirect,308 to https://www.aksanira.my.id/,Not tested live,Pending,,,Requires deployed domain and DNS
+DOMAIN-02,SSL,apex and www,Certificate validation,Valid HTTPS on both hosts,Not tested live,Pending,,,Inspect browser certificate and curl
+MAYAR-01,Checkout,Financial Control listing,Verify title price version files receipt delivery,Matches workbook and guide v1.4,Not verified,Pending,,,Use authorized test transaction
+MAYAR-02,Checkout,Vendor Decision listing,Verify title price version files receipt delivery,Matches workbook and guide v1.4,Not verified,Pending,,,Use authorized test transaction
+FORM-01,Contact,/kontak,Submit test message,Message received at configured destination,Not tested live,Pending,,,Verify inbox and error handling
+BROWSER-01,Responsive,All 67 root HTML files via clean URLs,Run browser_smoke.mjs on staging Chromium desktop/mobile,HTTP 200; no overflow/broken images/unlabeled inputs/empty links/JS errors; keyboard focus reached,Not run — staging URL unavailable,Pending,,,Save browser-smoke-report.json plus deployment URL and ID; script tests all HTML files but does not submit forms or checkout
+A11Y-01,Accessibility,Homepage and product pages,Keyboard labels alt contrast zoom 200%,No blocking issues,Not tested live,Pending,,,Document exceptions
+PERF-01,Performance,Homepage and three product pages,Lighthouse run,Record scores and blocking issues,Not tested live,Pending,,,Do not use score alone as release gate
+SEO-01,SEO,/robots.txt and /sitemap.xml,HTTP and Search Console checks,Valid resources and canonical www,Not tested live,Pending,,,Submit sitemap after deployment
+ANALYTICS-01,Analytics,CTA events,Verify configured GA4/GTM events,Only if official ID configured,Not configured,Pending,,,dataLayer helper is not analytics deployment
+BROWSER-02,Browser QA,All HTML routes,Run all-page Playwright smoke test on staging,Every route returns 200 and no blocking browser findings,Not run — staging URL unavailable,Pending,,,Requires BASE_URL and Playwright Chromium; report path browser-smoke-report.json
+BROWSER-SCRIPT-01,Browser QA, browser_smoke.mjs,Node syntax validation,Valid JavaScript syntax,`node --check browser_smoke.mjs` passed; staging execution pending,Partial,,,Syntax only; not a browser test result
+BROWSER-SCRIPT-01,Browser QA,browser_smoke.mjs,Node syntax validation,Valid JavaScript syntax,node --check passed; staging execution pending,Partial,,,Syntax only; not a browser test result
